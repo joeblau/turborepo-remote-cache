@@ -10,13 +10,13 @@ importers:
     dependencies:
       '@hono/valibot-validator':
         specifier: ^0.6.1
-        version: 0.6.1(hono@4.12.25)(valibot@1.4.1(typescript@6.0.3))
+        version: 0.6.1(hono@4.13.5)(valibot@1.4.2(typescript@6.0.3))
       hono:
-        specifier: ^4.12.25
-        version: 4.12.25
+        specifier: ^4.13.5
+        version: 4.13.5
       valibot:
-        specifier: ^1.4.1
-        version: 1.4.1(typescript@6.0.3)
+        specifier: ^1.4.2
+        version: 1.4.2(typescript@6.0.3)
     devDependencies:
       '@changesets/changelog-github':
         specifier: ^0.7.0
@@ -1832,8 +1832,8 @@ packages:
   hast-util-whitespace@3.0.0:
     resolution: {integrity: sha512-88JUN06ipLwsnv+dVn+OIYOvAuvBMy/Qoi6O7mQHxdPXpjy+Cd6xRkWwux7DKO+4sYILtLBRIKgsdpS2gQc7qw==}
 
-  hono@4.12.25:
-    resolution: {integrity: sha512-2NFaIyNVgJmBs/ecmtGzlmluTFs5cHEWGTdu0t1HBwYzoGXOL5nUQBRMXsXWla5i4KkG//QMzVP88m1+I3fdAQ==}
+  hono@4.13.5:
+    resolution: {integrity: sha512-O6+/eCYRkzzzy0rPWwKLiGBR1nFuUPZynnwjxN1MBA62NNqbT0wQEzQyK2gSO5yDIDB336sXQleAhOHrzlYyKw==}
     engines: {node: '>=16.9.0'}
 
   hookable@5.5.3:
@@ -2449,8 +2449,8 @@ packages:
     peerDependencies:
       browserslist: '>= 4.21.0'
 
-  valibot@1.4.1:
-    resolution: {integrity: sha512-klCmFTz2jeDluy9RwX+F884TCiogtdBJ/YaxSx1EOBYXa3NXNWj8kR1jjN8rzluwojJVWWaHJ4r1U5LfICnM3g==}
+  valibot@1.4.2:
+    resolution: {integrity: sha512-gjdCvJ6d3RyHAneqxMYMW9QMCwYMb3jpOO0IyHZV1bnRHFBHrX3VkIILt5XYR0WhwHiH7Mty8ovuPZ/O3gamrg==}
     peerDependencies:
       typescript: '>=5'
     peerDependenciesMeta:
@@ -3188,10 +3188,10 @@ snapshots:
   '@esbuild/win32-x64@0.27.7':
     optional: true
 
-  '@hono/valibot-validator@0.6.1(hono@4.12.25)(valibot@1.4.1(typescript@6.0.3))':
+  '@hono/valibot-validator@0.6.1(hono@4.13.5)(valibot@1.4.2(typescript@6.0.3))':
     dependencies:
-      hono: 4.12.25
-      valibot: 1.4.1(typescript@6.0.3)
+      hono: 4.13.5
+      valibot: 1.4.2(typescript@6.0.3)
 
   '@iconify-json/simple-icons@1.2.86':
     dependencies:
@@ -4165,7 +4165,7 @@ snapshots:
     dependencies:
       '@types/hast': 3.0.4
 
-  hono@4.12.25: {}
+  hono@4.13.5: {}
 
   hookable@5.5.3: {}
 
@@ -4783,7 +4783,7 @@ snapshots:
       escalade: 3.2.0
       picocolors: 1.1.1
 
-  valibot@1.4.1(typescript@6.0.3):
+  valibot@1.4.2(typescript@6.0.3):
     optionalDependencies:
       typescript: 6.0.3
 
